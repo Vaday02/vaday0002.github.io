@@ -1,0 +1,1385 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid red;*/
+
+}
+
+body {
+    font: 700 14px/1.5 'Open Sans',
+    sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2e2e2e;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .8s;
+}
+
+.clearfix:before {
+    display: table;
+    content: '';
+}
+
+.clearfix:after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.first-info-in-header {
+    text-transform: uppercase;
+    color: #fff;
+    background: #000;
+    font-size: 14px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 4px;
+    float: left;
+    width: 100%;
+}
+
+.first-img-in-header {
+    float: right;
+}
+
+.first-img-in-header img {
+    height: 23px;
+    margin: 13px 23px 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.logo, .menu-america {
+    float: left;
+    padding-top: 8px;
+}
+
+.logo img {
+    padding: 1px 15px 5px 86px;
+    height: 41px;
+    border-right: solid 2px #000;
+}
+
+.menu-america img {
+    height: 26px;
+    padding: 10px 100px 0 15px;
+}
+
+nav > ul li {
+    font-size: 17px;
+    padding: 22px 15px 16px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+
+}
+
+nav > ul li a {
+    color: #fff;
+}
+
+nav > ul li:first-of-type {
+    padding-left: 101px;
+}
+
+nav li a {
+
+}
+
+.icon-shop {
+    float: right;
+    font-size: 30px;
+    margin: -53px 210px 0 0;
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    margin-top: 58px;
+}
+
+.slaider {
+    background: url("img/slaider-img.jpg") center/cover no-repeat;
+    width: 100%;
+    height: 715px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.sweat-absorbing {
+    font-family: 'BRUSHSTRIKE', Arial,
+    sans-serif;
+    font-size: 115px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+}
+
+.disposable {
+    font: 500 40px 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 6px;
+    word-spacing: 5px;
+    text-align: center;
+
+}
+
+.slaider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teach-this {
+    color: #000;
+    background: #fff;
+    mix-blend-mode: lighten;
+}
+
+.tech {
+    background: linear-gradient(to right, #0e1757, #0568b1);
+    font-size: 38px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 900;
+    float: left;
+    line-height: 140px;
+    margin: 0 0 0 55px;
+}
+
+.img-fom-features {
+    height: 160px;
+}
+
+.img-fom-features img {
+    float: left;
+    height: 50px;
+    padding: 48px 0 0 48px;
+}
+
+.img-speedomtr, .heels, .rain {
+    float: left;
+}
+
+.no-one-needs {
+    color: #fff;
+    font-size: 39px;
+    text-transform: uppercase;
+    line-height: 160px;
+    font-weight: 900;
+}
+
+.no-one-needs-info {
+    background-color: #000;
+    height: 160px;
+}
+
+.no-one-needs-info img {
+    width: 70px;
+    padding-left: 160px;
+    padding-top: 20px;
+    padding-right: 23px;
+}
+
+.heels img {
+    padding: 35px 23px 0 160px;
+}
+
+.rain img {
+    width: 55px;
+    padding: 38px 0 0 137px;
+}
+
+.img-speedomtr img {
+    width: 80px;
+    padding-top: 60px;
+}
+
+.no-one-needs {
+    float: right;
+    text-align: center;
+}
+
+.buy-this {
+    background: #f3f3f3;
+    width: 100%;
+    height: 640px;
+
+}
+
+.gm-chngr {
+    background: linear-gradient(to right, #0e1757, #0568b1);
+}
+
+.gm-chngr h1 {
+    color: #000;
+    background: #f3f3f3;
+    mix-blend-mode: lighten;
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+.why-you-need-buy-it {
+    background: #f3f3f3;
+    width: 30%;
+    padding: 34px 0 0 156px;
+}
+
+.delivered {
+    color: #333;
+    letter-spacing: 4px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    padding-left: 4px;
+    padding-bottom: 8px;
+}
+
+.about-protuct {
+    padding-left: 4px;
+    padding-top: 15px;
+    max-width: 250px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: 100;
+    line-height: 24px;
+}
+
+.price {
+    max-width: 250px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #056cb6;
+    border-left: solid 5px;
+    border-color: #e1e1e1;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.why-you-need-buy-it {
+    float: left;
+}
+
+.why-you-need-buy-it h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    border: solid #056cb6 2px;
+    display: inline-block;
+    padding: 20px 63px;
+    margin-top: 40px;
+    border-radius: 70px;
+}
+
+.america100 img {
+    height: 40px;
+    padding: 40px 23px;
+}
+
+.video-player {
+    float: left;
+    width: 50%;
+    background: #f3f3f3;
+    padding-left: 100px;
+}
+
+.video-player img {
+    width: 90%;
+    padding: 10% 8% 0 0;
+
+}
+
+.used-by {
+    background: linear-gradient(to right, #0e1757, #0568b1);
+}
+
+.used-by h1 {
+    font-size: 50px;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: lighten;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 300px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.our-sponsors {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+}
+
+.imgs-sponseres {
+    padding-left: 20px;
+}
+
+.three-points {
+    background: linear-gradient(to right, #0e1757, #0568b1);
+
+}
+
+.full-stop {
+    color: #000;
+    background: #fff;
+    mix-blend-mode: lighten;
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 100px;
+
+}
+
+.insta {
+    width: 100%;
+    height: 710px;
+    background: url("img/insta.jpg") center/cover no-repeat;
+}
+
+.icon-insta {
+    font-size: 50px;
+    font-weight: 100;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.heshteg {
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+.instas-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.instas-img img {
+    height: 190px;
+    padding: 5px;
+}
+
+.hat {
+    width: 30%;
+}
+
+.hat a {
+    color: white;
+}
+
+.hat p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    background: #056ab2;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-top: -8px;
+}
+
+.hat img {
+    width: 100%;
+}
+
+.diferent-hat {
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.woman-jumps {
+    background: #000 url("img/fon.png") center/cover no-repeat;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.protection {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.short-tutorial {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.icon-play a {
+    color: #fff;
+}
+
+.icon-play :hover {
+    border-color: #bd2631;
+}
+
+.icon-play {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 100;
+    border: solid 2px #fff;
+    border-radius: 100px;
+    padding: 7px 32px 10px 42px;
+    margin-top: 19px;
+}
+
+footer {
+    height: auto;
+    background: #0d6cb6;
+    padding: 78px 200px;
+}
+
+.stay h1 {
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.telega {
+    padding: 0 0 0 192px;
+    border: solid 1px #fff;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+.telega-iconca {
+    padding: 5px 17px 5px;
+    background: #fff;
+    border-radius: 5px;
+    margin-right: -3px;
+}
+
+.iconca {
+    background: #fff;
+}
+
+#text {
+    border-radius: 5px;
+    background: #0d6cb6;
+    border: #fff solid 1px;
+    line-height: 25px;
+    width: 200px;
+
+}
+
+.feedback {
+    padding-top: 20px;
+}
+
+.first-stolbec {
+    float: left;
+}
+
+.about-us ul li {
+    display: block;
+    padding-left: 100px;
+    line-height: 27px;
+}
+
+.about-us a {
+    color: #fff;
+
+    font-weight: 300;
+}
+
+.about-us {
+    float: left;
+}
+
+footer h1 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.short-contact-info {
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kloikloi {
+    padding-left: 60px;
+}
+
+.kloi {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    float: left;
+}
+
+.last-info {
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.icons-last {
+    float: right;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-weight: 300;
+    margin-top: -40px;
+}
+
+.icons-last a {
+    color: #fff;
+
+}
+
+.last-os-lasts {
+    padding-top: 30px;
+    border-top: solid 1px gray;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+
+}
+
+a:hover {
+    color: #bd2631;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/*    RESPONSIVE    */
+
+@media screen and (max-width: 1480px) {
+    .buy-this {
+        height: 750px;
+    }
+
+    .why-you-need-buy-it h1 {
+        font-size: 35px;
+    }
+
+    .img-fom-features img {
+        width: 50%;
+        height: auto;
+        margin-top: auto;
+    }
+
+    .about-us ul li {
+        padding-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1430px) {
+
+    nav > ul li {
+        font-size: 16px;
+        padding: 22px 10px 16px;
+    }
+
+    nav > ul li:first-of-type {
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .no-one-needs {
+        font-size: 30px;
+    }
+
+    .buy-this {
+        height: 600px;
+    }
+
+    footer {
+        padding: 60px 45px;
+    }
+
+    nav > ul li {
+        font-size: 15px;
+        padding: 20px 9px 15px;
+    }
+
+    nav > ul li:first-of-type {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .video-player {
+        padding-left: 10px;
+    }
+
+    .icon-shop {
+        margin: -53px 80px 0 0;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .features {
+        height: 140px;
+    }
+
+    .no-one-needs {
+        height: 140px;
+        font-size: 20px;
+    }
+
+    .heels img {
+        width: 60px;
+        padding-top: 45px;
+    }
+
+    .img-speedomtr img {
+        padding-top: 45px;
+    }
+
+    .rain img {
+        width: 50px;
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .slaider {
+        height: 600px;
+    }
+
+    .logo img {
+        padding-left: 30px;
+    }
+
+    .menu-america img {
+        padding-right: 30px;
+    }
+
+    .first-info-in-header {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .first-img-in-header img {
+        margin-top: 6px;
+    }
+
+    .menu {
+        margin-top: 40px;
+    }
+
+    .gm-chngr h1 {
+        font-size: 30px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .imgs-sponseres img {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .why-you-need-buy-it {
+        padding: 50px 50px 0;
+    }
+
+    .sponsore {
+        height: 600px;
+    }
+
+    .full-stop {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .logo img {
+        padding-left: 10px;
+    }
+
+    .menu-america img {
+        padding-right: 10px;
+    }
+
+    nav > ul li:first-of-type {
+        padding-left: 20px;
+    }
+
+    .img-speedomtr img {
+        padding-left: 20px;
+    }
+
+    .teach-this {
+        font-size: 30px;
+    }
+
+    .ftrh h1 {
+        font-size: 13px;
+    }
+
+    .ftrh p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #menushka {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        font-size: 30px;
+        color: white;
+        font-family: 'Oswald', Arial sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        padding: 1% 5%;
+    }
+
+    .video-player {
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .video-player img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .why-you-need-buy-it {
+        width: 100%;
+        padding: 20px 0 0 20px;
+    }
+
+    .about-protuct {
+        float: left;
+    }
+
+    .price {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .why-you-need-buy-it h1 {
+        text-align: center;
+    }
+
+    .delivered {
+        text-align: center;
+    }
+
+    .why-you-need-buy-it h2 {
+        margin-left: 20px;
+    }
+
+    .video-player {
+        margin: 0 auto;
+    }
+
+    .used-by h1 {
+        line-height: 200px;
+    }
+
+    .sponsore {
+        height: auto;
+    }
+
+    .used-by {
+        text-align: left;
+        line-height: 200px;
+    }
+
+    .buy-this {
+        height: 650px;
+    }
+
+    .video-player {
+        padding: 30px 30px 0;
+    }
+
+    .instas-img img {
+        height: 140px;
+    }
+
+    .insta {
+        height: 600px;
+    }
+
+    .diferent-hat {
+        height: 450px;
+    }
+
+    .woman-jumps {
+        height: 500px;
+    }
+
+    footer {
+        padding: 10px 70px;
+    }
+
+    .about-us {
+        float: right;
+        margin-right: 100px;
+    }
+
+    .contact-info {
+        padding: 15px 60px 0 0;
+        margin-left: 150px;
+        border-top: 1px solid gray;
+    }
+
+    .short-contact-info {
+        padding-left: 20px;
+    }
+
+    .short-contact-info:first-of-type {
+        padding-left: 0;
+    }
+
+    .kloikloi {
+        padding: 0;
+    }
+
+    .first-stolbec {
+        margin-left: 150px;
+        margin-top: 20px;
+        /*border-right: 1px solid gray;*/
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+    .img-fom-features img {
+        float: none;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .teach-this {
+        line-height: 100px;
+    }
+
+    .tech {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .features {
+        height: auto;
+    }
+
+    .img-speedomtr img {
+
+    }
+
+    .rain img {
+        padding: 40px 10px 0 30px;
+    }
+
+    .heels img {
+        padding: 40px 10px 0 30px;
+    }
+
+    .no-one-needs {
+        font-size: 18px;
+    }
+
+    .used-by h1 {
+        font-size: 35px;
+        line-height: 150px;
+    }
+
+    .insta img {
+        height: 100px;
+    }
+
+    .insta {
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .about-us {
+        margin-right: 50px;
+    }
+
+    .contact-info {
+        margin-left: 50px;
+    }
+
+    .first-stolbec {
+        margin-left: 50px;
+    }
+
+    .icon-insta {
+        padding-top: 20px;
+    }
+
+    .insta {
+        height: auto;
+    }
+
+    .america100 img {
+        padding: 0;
+        height: auto;
+        width: 25%;
+        float: left;
+    }
+
+    .why-you-need-buy-it h2 {
+        float: left;
+    }
+
+    .video-player img {
+        margin-top: 15px;
+    }
+
+    .woman-jumps {
+        height: 400px;
+    }
+
+    .slaider {
+        height: 450px;
+    }
+
+    .sweat-absorbing {
+        font-size: 60px;
+    }
+
+    .disposable {
+        font-size: 30px;
+    }
+
+    .no-one-needs {
+        line-height: 100px;
+        height: 100px;
+    }
+
+    .rain img, .heels img {
+        padding-top: 15px;
+    }
+
+    .img-speedomtr img {
+        padding-top: 20px;
+    }
+
+    .no-one-needs-info {
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .protection {
+        font-size: 25px;
+    }
+
+    .short-tutorial {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .icon-play {
+        font-size: 30px;
+        padding: 7px 16px 10px 22px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .logo {
+        width: 30%;
+        padding-top: 13px;
+    }
+
+    .logo img {
+        height: auto;
+        width: 90%;
+    }
+
+    .slaider {
+        height: 400px;
+    }
+
+    .america100 img {
+        margin-top: -90px;
+    }
+
+    .buy-this {
+        height: auto;
+    }
+
+    .full-stop {
+        line-height: 20px;
+        margin-bottom: 60px;
+    }
+
+    .diferent-hat {
+        height: 300px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slaider {
+        height: 325px;
+    }
+
+    .img-speedomtr img {
+        width: 50px;
+        padding-top: 30px;
+        padding-right: 10px;
+    }
+
+    .heels img {
+        width: 40px;
+        padding-top: 28px;
+    }
+
+    .rain img {
+        width: 40px;
+        padding-top: 25px;
+    }
+
+    .no-one-needs-info {
+        height: 100px;
+    }
+
+    .why-you-need-buy-it h2 {
+        font-size: 17px;
+        padding: 12px 26px 16px;
+    }
+
+    .america100 img {
+        margin: -26px -32px -13px 13px;
+        width: 17%;
+    }
+
+    .woman-jumps {
+        height: 350px;
+    }
+
+    .adress, .phone, .mulo {
+        max-width: 150px;
+    }
+
+    .price {
+        margin: 10px 0 0 0;
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .slaider {
+        height: 300px;
+    }
+
+    .sweat-absorbing {
+        font-size: 40px;
+    }
+
+    .disposable {
+        font-size: 20px;
+    }
+
+    .about-protuct {
+        float: none;
+    }
+
+    .why-you-need-buy-it {
+        padding-left: 0;
+    }
+
+    .full-stop {
+        font-size: 60px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .first-info-in-header span {
+        font-size: 10px;
+    }
+
+    .menu-america img {
+        width: 50%;
+        height: auto;
+    }
+
+    .mobile-menu {
+        font-size: 20px;
+    }
+
+    .icon-shop {
+        display: none;
+    }
+
+    .img-speedomtr img {
+        width: 30px;
+        padding-top: 40px;
+    }
+
+    .heels img {
+        width: 25px;
+        padding-top: 35px;
+    }
+
+    .rain img {
+        width: 25px;
+        padding-top: 35px;
+    }
+
+    .no-one-needs {
+        font-size: 14px;
+    }
+
+    .video-player {
+        width: 80%;
+    }
+
+    .diferent-hat {
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        padding: 10px 0 10px;
+    }
+
+    .hat {
+        width: 70%;
+        padding-top: 10px;
+    }
+
+    .protection {
+        font-size: 18px;
+    }
+
+    .short-tutorial {
+        font-size: 15px;
+    }
+
+    .woman-jumps {
+        height: 300px;
+    }
+
+    .used-by h1 {
+        line-height: 50px;
+        padding: 30px;
+    }
+
+    .telega {
+        padding: 0 0 0 130px;
+    }
+
+    .first-stolbec {
+        padding: 0;
+    }
+
+    .about-us ul li {
+        padding: 0;
+    }
+
+    .last-os-lasts {
+        width: 70%;
+    }
+
+    .icons-last {
+        width: 30%;
+
+    }
+}
+
+@media screen and (max-width: 411px) {
+
+    .no-one-needs-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+
+    .img-speedomtr img {
+        width: 60px;
+        padding-top: 30px;
+    }
+
+    .no-one-needs {
+        font-size: 30px;
+        height: 80px;
+    }
+
+    .heels img {
+        width: 55px;
+        padding-top: 20px;
+    }
+
+    .rain img {
+        width: 48px;
+        padding-top: 17px;
+    }
+
+    .insta img {
+        height: 80px;
+    }
+
+    .insta {
+        height: 325px;
+    }
+
+    .heshteg {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .icons-last {
+        font-size: 15px;
+    }
+
+    .about-us ul {
+        float: left;
+        margin: 10px 70px;
+    }
+
+    .adress {
+        padding-right: 10px;
+    }
+
+    .phone {
+        padding-right: 10px;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
+
+    .menu-america {
+        width: 30%;
+        padding-right: 20px;
+    }
+
+    .menu-america img {
+        width: 90%;
+        padding-top: 4px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .insta img {
+        height: 70px;
+    }
+
+    .kloikloi {
+        width: 60%;
+    }
+
+    .contact-info {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .protection {
+        text-align: center
+    }
+
+    .woman-jumps {
+        height: 200px
+    }
+
+    .used-by h1 {
+        font-size: 18px;
+    }
+    .insta img{
+        height: 60px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
